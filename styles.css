@@ -2,18 +2,24 @@
     font-family: 'Roboto';
 }
 
-.header .logo {
-    font-size: 24px;
-    color: #1F2937;
-}
-
 .header, .hero, .footer {
     background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 200px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .hero .main-text {
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
 }
 
@@ -38,4 +44,17 @@ button, .call-to-action {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 32px;
 }
